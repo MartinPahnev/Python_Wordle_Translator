@@ -5,7 +5,7 @@ the Wordle game through a Flask-based web interface.
 
 import random
 import requests
-from flask import render_template, request
+from flask import render_template, request, redirect, url_for
 
 def get_word_list():
     """Retrieve a list of words for the Wordle game."""
